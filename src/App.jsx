@@ -2,6 +2,11 @@ import { CV } from './CV/CV';
 import './App.scss';
 import Navbar from './components/NavBar';
 import { Route, Routes } from 'react-router';
+import Education from './components/Education';
+import Experience from './components/Experience';
+import Languages from './components/Languages';
+import Skills from './components/Skills';
+import Hero from './components/Hero';
 
 console.log(CV);
 
@@ -13,11 +18,11 @@ function App() {
         
       <div className='container'>
         <Routes>
-          <Route active path="/" element={<div>Inicio...</div>}/>
-          <Route path="/experience" element={<div>Experiencia...</div>}/>
-          <Route path="/education" element={<div>educacion...</div>}/>
-          <Route path="/languages" element={<div>lenguajes...</div>}/>
-          <Route path="/skills" element={<div>skills...</div>}/>
+          <Route active path="/" element={<Hero/>}/>
+          <Route path="/experience" element={<Experience/>}/>
+          <Route path="/education" element={<Education/>}/>
+          <Route path="/languages" element={<Languages/>}/>
+          <Route path="/skills" element={<Skills/>}/>
         </Routes>
       </div>
 
