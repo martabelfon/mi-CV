@@ -8,6 +8,10 @@ const Hero = () => {
         {hero.map(her => (
             <ul key={JSON.stringify(her)}>
                 <li>{her.name}</li>
+                <li>{her.adress}</li>
+                <li>{her.email}</li>
+                <li>{her.birthDate}</li>
+
             </ul>
         ))}
     </div>

@@ -2,8 +2,7 @@ export const CV = {
     hero: [
       {
         name: "Marta Beltrán Fonseca",
-        adress: "Sant Celoni",
-        city: "Barcelona",
+        adress: "Sant Celoni, Barcelona",
         email: "martabelfon@gmail.com",
         birthDate: "28/11/1996",
         phone: "650 95 80 58",
